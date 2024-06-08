@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "vazir", sans-serif;
+  font-family: "shabnam", sans-serif;
 }
 li {
   list-style: none;
@@ -24,7 +24,7 @@ a {
   text-decoration: none;
 }
 .padding {
-  padding: 10px 70px;
+  padding: 15px 70px;
 }
 
 /* header style  */
@@ -68,9 +68,10 @@ header .right .logo img {
   color: #0d75dd;
 }
 .angle {
-  font-size: 13px;
+  font-size: 16px;
   margin-right: 5px;
   transition: 0.3s;
+  font-weight: bold;
 }
 .course:hover .angle {
   transform: rotate(-90deg);
@@ -94,7 +95,6 @@ header .right .logo img {
 }
 .drop-down li {
   border-bottom: 1px solid #b6b5b5;
-  padding-bottom: 5px;
   font-family: "yekan", sans-serif;
   font-size: 14px;
 }
@@ -142,11 +142,12 @@ header .left {
   background: #0d75dd;
   border: 1px solid #0d75dd;
   color: #ffffff;
-  padding: 9px 20px;
+  width: 120px;
+  height: 45px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 .login-btn:hover{
   background: #ffffff;
