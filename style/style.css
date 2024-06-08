@@ -1,90 +1,154 @@
 @font-face {
-    font-family: 'vazir';
-    src: url(../assest/fonts/Vazir-Medium.woff);
+  font-family: "vazir";
+  src: url(../assest/fonts/Vazir-Medium.woff);
 }
 @font-face {
-    font-family: 'yekan';
-    src: url(../assest/fonts/Yekan.woff);
+  font-family: "yekan";
+  src: url(../assest/fonts/Yekan.woff);
 }
 @font-face {
-    font-family: 'shabnam';
-    src: url(../assest/fonts/Shabnam-Bold.woff);
+  font-family: "shabnam";
+  src: url(../assest/fonts/Shabnam-Bold.woff);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'vazir', sans-serif;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "vazir", sans-serif;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.padding{
-    padding: 10px 70px;
+.padding {
+  padding: 10px 70px;
 }
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/* header style  */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
 }
-header .right{
-    display: flex;
-    align-content: center;
-    gap: 30px;
-    padding-bottom: 40px;
+/* header right section style  */
+
+header .right {
+  display: flex;
+  align-content: center;
+  gap: 30px;
 }
-header .right .logo{
-    width: 80px;
+header .right .logo {
+  width: 80px;
 }
-header .right .logo img{
-    width: 100%;
+header .right .logo img {
+  width: 100%;
 }
-.right .ul{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    
+.right .ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
-.right .ul li{
-    cursor: pointer;
+.right .ul li {
+  cursor: pointer;
 }
-.angle{
-    font-size: 13px;
-    margin-right: 5px;
-    transition: 0.3s;
+.right .ul li a {
+  color: #2f2f2f;
+  transition: 0.2s;
 }
-.course:hover .angle{
-    transform: rotate(-90deg);
+.right .ul li a:hover {
+  color: #0d75dd;
 }
-.course:hover .drop-down{
-   display: flex;
+
+#active-li {
+  color: #0d75dd;
 }
-.course{
-    position: relative;
+.angle {
+  font-size: 13px;
+  margin-right: 5px;
+  transition: 0.3s;
 }
-.drop-down{
-    position: absolute;
-    top: 35px;
-    display: none;
-    flex-direction: column;
-    gap: 5px;
-    background-color: rgb(241, 241, 241);
-    width: 210px;
-    border-radius: 10px;
-    padding: 10px;
+.course:hover .angle {
+  transform: rotate(-90deg);
 }
-.drop-down li{
-    border-bottom: 1.4px solid rgb(182, 181, 181); 
-    padding-bottom: 5px;
-    font-family: 'yekan', sans-serif;
-    font-size: 14px;
+.course:hover .drop-down {
+  display: flex;
 }
-.drop-down li:last-child{
-    border-bottom: none;
+.course {
+  position: relative;
+}
+.drop-down {
+  position: absolute;
+  top: 35px;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background: #e6e6e6;
+  width: 210px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.drop-down li {
+  border-bottom: 1px solid #b6b5b5;
+  padding-bottom: 5px;
+  font-family: "yekan", sans-serif;
+  font-size: 14px;
+}
+.drop-down li:last-child {
+  border-bottom: none;
+}
+
+/* header left style  */
+
+header .left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left .shoping {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e6e6e6;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.left .shoping i {
+  font-size: 28px;
+  color: #686868;
+}
+.shoping .shoping-count {
+  position: absolute;
+  background: #0d75dd;
+  font-size: 10px;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  top: 25px;
+  right: 5px;
+}
+.login-btn {
+  background: #0d75dd;
+  border: 1px solid #0d75dd;
+  color: #ffffff;
+  padding: 9px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 16px;
+}
+.login-btn:hover{
+  background: #ffffff;
+  color: #0d75dd;
 }
