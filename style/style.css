@@ -10,3 +10,16 @@
     font-family: 'shabnam';
     src: url(../assest/fonts/Shabnam-Bold.woff);
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
