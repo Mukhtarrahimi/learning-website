@@ -89,6 +89,7 @@ header .right .logo img {
   flex-direction: column;
   gap: 10px;
   background: #e6e6e6;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   width: 210px;
   border-radius: 10px;
   padding: 10px;
@@ -149,7 +150,29 @@ header .left {
   transition: 0.5s;
   /* font-size: 16px; */
 }
-.login-btn:hover{
+.login-btn:hover {
   background: #ffffff;
   color: #0d75dd;
+}
+
+/* main style  */
+.main{
+  height: 400px;
+    background: linear-gradient(rgba(7,52,177,0.3),rgba(0, 30, 112, 0.9)), url(../assest/img/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  color: #ffffff;
+
+}
+.main h1{
+  font-size: 50px;
+  font-family: 'shabnam', sans-serif;
+}
+.main i{
+  font-size: 180px;
+  font-weight: 900;
 }
