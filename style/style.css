@@ -73,13 +73,13 @@ header .right .logo img {
   transition: 0.3s;
   font-weight: bold;
 }
-.course:hover .angle {
+.course-nav:hover .angle {
   transform: rotate(-90deg);
 }
-.course:hover .drop-down {
+.course-nav:hover .drop-down {
   display: flex;
 }
-.course {
+.course-nav {
   position: relative;
 }
 .drop-down {
@@ -171,6 +171,8 @@ header .left {
 .main h1 {
   font-size: 50px;
   font-family: "shabnam", sans-serif;
+  color: #eb9f07;
+  font-weight: 900;
 }
 .main i {
   font-size: 180px;
