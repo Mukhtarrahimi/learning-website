@@ -176,12 +176,12 @@ header .left {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #ffffff;
+  color: #cccccc;
 }
 .main h1 {
   font-size: 50px;
   font-family: "lalezar", sans-serif;
-  color: #ff6600;
+  color: #fa7a25;
   font-weight: 900;
 }
 .main i {
@@ -259,7 +259,7 @@ header .left {
 }
 .price p {
   font-family: "yekan", sans-serif;
-  color: #0d75dd;
+  /* color: #0d75dd; */
 }
 
 /* all courses section  */
@@ -324,7 +324,7 @@ header .left {
   bottom: 0;
   /* backdrop-filter: blur(1px); */
   color: white;
-  font-size: 13px;
+  font-size: 12px;
 }
 .blog .img img {
   width: 100%;
@@ -366,7 +366,7 @@ header .left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 10px;
   transition: 0.3s;
   box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px;
   padding: 35px 35px 10px;
@@ -379,26 +379,28 @@ header .left {
 .lable {
   width: 50px;
   height: 50px;
-  background-color: #65b2ff;
+  background-color: #b9dafa;
   display: block;
   position: absolute;
   left: 20px;
-  border-radius: 5px;
+  border-radius: 50px;
   top: -20px;
   z-index: -10;
 }
 .card-icon i {
-  background-color: #0d75dd;
+  background-color: #4ba4fc;
   color: white;
   font-size: 30px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-bottom: 5px;
+  
 }
 
 .card p {
   font-size: 17px;
-  font-family: "vazir", sans-serif;
+  font-family: "lalezar", sans-serif;
+  color:#2f2f2f;
 }
 .card span {
   font-size: 15px;
