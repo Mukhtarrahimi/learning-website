@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- style css link  -->
     <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="../../style/style.css" />
     <!-- remix icon cdn link  -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
@@ -17,14 +18,10 @@
     <div class="container">
       <div class="header">
         <img src="../../assest/img/logo.png" alt="" />
-        <h2>عضویت</h2>
-        <div class="buttons">
-          <p>قبلا ثبت نام کرده اید؟</p>
-          <a href="">وارید شوید</a>
-        </div>
+        <p class="title">عضویت</p>
       </div>
       <form action="">
-        <div class="input-group">
+        <div class="input-group username">
           <input type="text" placeholder="نام کاربری" />
           <i class="ri-user-line"></i>
         </div>
@@ -32,7 +29,7 @@
           <input type="text" placeholder="ایمیل" />
           <i class="ri-mail-line"></i>
         </div>
-        <div class="input-group">
+        <div class="input-group number">
           <input type="text" placeholder="شماره موبایل" />
           <i class="ri-phone-line"></i>
         </div>
@@ -40,8 +37,14 @@
           <input type="password" placeholder="رمز عبور" />
           <i class="ri-lock-line"></i>
         </div>
-        <button>عضویت</button>
+        <button class="submit-btn">عضویت</button>
+        <div class="buttons">
+          <p>قبلا ثبت نام کرده اید؟</p>
+          <a class="signinupBtn" href="">وارید شوید</a>
+        </div>
       </form>
     </div>
+
+    <script src="../../app.js"></script>
   </body>
 </html>
