@@ -150,19 +150,21 @@ header .left {
   right: 5px;
 }
 .login-btn {
-  background: #0d75dd;
-  border: 1px solid #0d75dd;
+  background: #0882fc;
+  border: 1px solid #0882fc;
   color: #ffffff;
   width: 120px;
   height: 45px;
+  line-height: 45px;
+  text-align: center;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s;
-  /* font-size: 16px; */
+  font-size: 14px;
 }
 .login-btn:hover {
   background: #ffffff;
-  color: #0d75dd;
+  color: #0882fc;
 }
 
 /* main style  */
@@ -219,7 +221,7 @@ header .left {
   padding: 5px 10px;
 }
 .course .h4:hover {
-  color: #0d75dd;
+  color: #0882fc;
 }
 .teacher {
   display: flex;
@@ -277,17 +279,17 @@ header .left {
   margin-top: 20px;
 }
 .blogs-title a {
-  background-color: #0d75dd;
+  background-color: #0882fc;
   padding: 10px 25px;
   border-radius: 30px;
   color: #ffffff;
-  border: 1px solid #0d75dd;
+  border: 1px solid #0882fc;
   cursor: pointer;
   transition: 0.2s;
 }
 .blogs-title a:hover {
   background-color: transparent;
-  color: #0d75dd;
+  color: #0882fc;
 }
 
 .blogs {
@@ -332,7 +334,7 @@ header .left {
 }
 .img img {
   width: 100%;
-  
+
   transition: 0.5s;
 }
 .blog-desc {

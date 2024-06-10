@@ -97,6 +97,25 @@ form {
   color: #7e7e7e;
 
 }
-.signinupBtn{
-    color: rgb(8, 130, 252);
+.buttons a{
+  color: rgb(8, 130, 252);
+
+}
+#signupBtn{
+  display: none;
+}
+
+.backbtn{
+  padding: 12px 15px;
+  background-color: #0882fc;
+  color: white;
+  border-radius: 30px;
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.backbtn:hover{
+  box-shadow: rgba(5, 128, 251, 0.3) 0px 8px 24px;
+
 }
