@@ -38,7 +38,6 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  
 }
 /* header right section style  */
 
@@ -234,7 +233,7 @@ header .left {
 .teacher p {
   font-family: "yekan", sans-serif;
 }
-.teacher i{
+.teacher i {
   font-size: 20px;
 }
 .course-footer {
@@ -270,15 +269,14 @@ header .left {
   gap: 30px;
 }
 
-
 /* blogs style  */
-.blogs-title{
+.blogs-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
 }
-.blogs-title a{
+.blogs-title a {
   background-color: #0d75dd;
   padding: 10px 25px;
   border-radius: 30px;
@@ -287,38 +285,35 @@ header .left {
   cursor: pointer;
   transition: 0.2s;
 }
-.blogs-title a:hover{
+.blogs-title a:hover {
   background-color: transparent;
   color: #0d75dd;
 }
 
-.blogs{
+.blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-.blog{
+.blog {
   border-radius: 5px;
   overflow: hidden;
   border: 1px solid #eee;
   cursor: pointer;
   transition: 0.3s;
-
 }
-.blog:hover{
+.blog:hover {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-
 }
-.blog .img{
+.blog .img {
   width: 100%;
   height: 100px;
   position: relative;
 }
-.blog:hover img{
+.blog:hover img {
   transform: scale(1.1);
-
 }
-.img .blog-info{
+.img .blog-info {
   width: 100%;
   display: flex;
   align-items: center;
@@ -330,24 +325,83 @@ header .left {
   /* backdrop-filter: blur(1px); */
   color: white;
   font-size: 13px;
-  
 }
-.blog .img img{
+.blog .img img {
   width: 100%;
   transition: 0.5s;
-
 }
-.blog-desc{
+.blog-desc {
   padding: 10px 20px 10px 20px;
 }
-.blog-desc h3{
-  font-family: 'vazir',sans-serif;
+.blog-desc h3 {
+  font-family: "vazir", sans-serif;
   /* padding: 10px ; */
   color: #2f2f2f;
 }
-.blog-desc p{
+.blog-desc p {
   color: #585858;
-  font-family: 'yekan',sans-serif;
+  font-family: "yekan", sans-serif;
   line-height: 22px;
   padding-top: 10px;
+}
+
+/* why us section style  */
+.why-us-title {
+  font-family: "vazir", sans-serf;
+}
+.why-us-title h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.why-us-title p {
+  font-size: 13px;
+}
+.why-us {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  transition: 0.3s;
+  box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px;
+  padding: 35px 35px 10px;
+  cursor: pointer;
+}
+.card-icon {
+  position: relative;
+  margin-bottom: 15px;
+}
+.lable {
+  width: 50px;
+  height: 50px;
+  background-color: #65b2ff;
+  display: block;
+  position: absolute;
+  left: 20px;
+  border-radius: 5px;
+  top: -20px;
+  z-index: -10;
+}
+.card-icon i {
+  background-color: #0d75dd;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 17px;
+  font-family: "vazir", sans-serif;
+}
+.card span {
+  font-size: 15px;
+  font-family: "yekan", sans-serif;
+  margin-top: -5px;
 }
