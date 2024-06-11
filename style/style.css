@@ -164,7 +164,9 @@ header .left {
 .login-btn:hover {
   background: #ffffff;
   color: #0882fc;
-  box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px;
+  /* box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px; */
+  box-shadow: inset #80bfff 0px 0px 40px -12px; 
+
 }
 
 /* main style  */
@@ -295,7 +297,9 @@ header .left {
   box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px;
 }
 
+
 .blogs {
+  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -350,9 +354,9 @@ header .left {
   color: #2f2f2f;
 }
 .blog-desc p {
-  color: #585858;
+  color: #727272;
   font-family: "yekan", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 25px;
   padding-top: 10px;
 }
@@ -408,7 +412,6 @@ header .left {
   border-radius: 8px;
   margin-bottom: 5px;
   /* box-shadow: rgba(157, 202, 247, 0.5) 0px 4px 16px; */
-
 }
 
 .card p {
