@@ -1,0 +1,72 @@
+.contact-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  /* margin-top: 50px; */
+}
+.contact-main h2 {
+  font-family: "lalezar", sans-serif;
+  text-align: center;
+  color: #0d75dd;
+}
+.contact-main p {
+  color: #686868;
+  padding-top: 5px;
+  text-align: center;
+}
+.contact-main .input-group {
+  width: 40%;
+  border: 1px solid #7bbcfd;
+  height: 40px;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  box-shadow: inset #7bbcfd 0px 0px 20px -12px;
+}
+.contact-main .input-group input {
+  width: 70%;
+  height: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.contact-main .input-group input:focus {
+  border: 1px solid #dedede;
+}
+.contact-main .input-group label {
+  background: #48a3fd;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-main .input-group label:hover {
+  background: #3a99f8;
+}
+
+.send-mail {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding: 30px;
+  border: 1.3px solid #9dceff;
+  margin: 0 auto;
+
+  border-radius: 15px;
+  /* box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px; */
+  background-image: linear-gradient(135deg, #f8fafd 0%, #d6e9fd 100%);
+}

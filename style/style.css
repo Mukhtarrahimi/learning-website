@@ -149,8 +149,10 @@ header .left {
   right: 5px;
 }
 .login-btn {
-  background: #0882fc;
+  background-color: #3698f9;
   border: 1px solid #0882fc;
+  box-shadow: rgba(157, 202, 247, 0.5) 0px 6px 16px;
+
   color: #ffffff;
   width: 120px;
   height: 45px;
@@ -354,20 +356,32 @@ header .left {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
+  position: relative;
+}
+.underline {
+  position: absolute;
+  left: 25%;
+  border: none;
+  border-top: 1.5px dotted #dbdbdb;
+  color: #fff;
+  background-color: #fff;
+  height: 2px;
+  width: 50%;
 }
 .blogs-title a {
-  background-color: #0882fc;
+  background-color: #3698f9;
   padding: 10px 25px;
   border-radius: 30px;
   color: #ffffff;
   border: 1px solid #0882fc;
   cursor: pointer;
   transition: 0.2s;
+  box-shadow: rgba(157, 202, 247, 0.5) 0px 6px 16px;
 }
 .blogs-title a:hover {
   background-color: transparent;
   color: #0882fc;
-  box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px;
+  box-shadow: rgba(157, 202, 247, 0.7) 0px 4px 16px;
 }
 
 .blogs {
