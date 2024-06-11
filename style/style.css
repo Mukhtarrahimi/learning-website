@@ -380,7 +380,8 @@ header .left {
   overflow: hidden;
   border: 1px solid #eee;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
+  box-shadow: inset #80bfff 0px 0px 20px -12px;
 }
 .blog:hover {
   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
