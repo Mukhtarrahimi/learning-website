@@ -1,5 +1,6 @@
 body {
   width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +16,6 @@ body {
   border-radius: 20px;
   box-shadow: rgba(119, 187, 254, 0.2) 0px 8px 24px;
   padding: 20px;
-  margin: 30px auto;
 }
 .header {
   width: 100%;
@@ -59,10 +59,9 @@ form {
   font-family: "yekan", sans-serif;
   border-radius: 8px;
   border: 1px solid #f5f8fc;
-
 }
-.input-group input:focus{
-    border: 1px solid rgb(137, 196, 255);
+.input-group input:focus {
+  border: 1px solid rgb(137, 196, 255);
 }
 .input-group i {
   position: absolute;
@@ -95,17 +94,12 @@ form {
   margin-top: 20px;
   gap: 5px;
   color: #7e7e7e;
-
 }
-.buttons a{
+.buttons a {
   color: rgb(8, 130, 252);
-
-}
-#signupBtn{
-  display: none;
 }
 
-.backbtn{
+.backbtn {
   padding: 12px 15px;
   background-color: #0882fc;
   color: white;
@@ -115,7 +109,12 @@ form {
   top: 20px;
   right: 20px;
 }
-.backbtn:hover{
+.backbtn:hover {
   box-shadow: rgba(5, 128, 251, 0.3) 0px 8px 24px;
-
+}
+.username {
+  display: none;
+}
+.number {
+  display: none;
 }
