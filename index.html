@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- style css link  -->
     <link rel="stylesheet" href="style/style.css" />
+    <!-- responsive style code  -->
+    <link rel="stylesheet" href="style/responsive.css" />
     <!-- remix icon cdn link  -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
@@ -20,7 +22,7 @@
         <div class="logo">
           <img src="./assest/img/logo.png" alt="" />
         </div>
-        <ul class="ul">
+        <ul class="ul active">
           <li class="li"><a id="active-li" href="#">صفحه نخست</a></li>
           <li class="course-nav li">
             <a href="#"
@@ -47,6 +49,10 @@
         <a href="./pages/login-form/login.html" class="login-btn"
           >ورود / ثبت نام</a
         >
+        <div class="navbar">
+          <i class="ri-menu-line icon open" ></i>
+          <i class="ri-close-fill icon close" style="display: none;"></i>
+        </div>
       </div>
     </header>
     <!-- main  -->
@@ -59,8 +65,8 @@
     <div class="suggestion-courses padding">
       <div class="course">
         <div class="descont-lable">
-          <img id="lable-img" src="./assest/img/discont-label.png" alt="">
-          <p>30% <br>تخفیف</p>
+          <img id="lable-img" src="./assest/img/discont-label.png" alt="" />
+          <p>30% <br />تخفیف</p>
         </div>
         <a href="">
           <img src="./assest/img/courses/node.png" alt="" />
@@ -76,7 +82,14 @@
             <p>756</p>
           </div>
           <div class="price">
-            <p>12000 اف</p>
+            <div class="price-descount">
+              <p>6500</p>
+              <span></span>
+            </div>
+            <div class="prev-price">
+              <p>8000 اف</p>
+              <span></span>
+            </div>
           </div>
         </div>
       </div>
@@ -102,8 +115,8 @@
       </div>
       <div class="course">
         <div class="descont-lable">
-          <img id="lable-img" src="./assest/img/discont-label.png" alt="">
-          <p>50% <br>تخفیف</p>
+          <img id="lable-img" src="./assest/img/discont-label.png" alt="" />
+          <p>50% <br />تخفیف</p>
         </div>
         <a href="">
           <img src="./assest/img/courses/next.png" alt="" />
@@ -119,7 +132,14 @@
             <p>1200</p>
           </div>
           <div class="price">
-            <p>8000 اف</p>
+            <div class="price-descount">
+              <p>6500</p>
+              <span></span>
+            </div>
+            <div class="prev-price">
+              <p>8000 اف</p>
+              <span></span>
+            </div>
           </div>
         </div>
       </div>
@@ -420,7 +440,7 @@
           <li><a href="">مقالات</a></li>
           <li><a href="">ارتباط با ما</a></li>
         </ul>
-      </div>   
+      </div>
       <div class="footer-contact">
         <h3>ارتباط با ما</h3>
         <div class="contact-icon">
@@ -435,7 +455,7 @@
           <i class="ri-mail-open-line"></i>
           <p>ایمیل: contact@cpcteam.com</p>
         </div>
-      </div>  
+      </div>
       <div class="news">
         <img src="./assest/img/logo.png" alt="" />
         <p>جدید ترین اخبار دنیای هوش مصنوعی و برنامه نویسی رو از دست ندید!</p>
@@ -445,5 +465,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>

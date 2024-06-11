@@ -167,7 +167,17 @@ header .left {
   /* box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px; */
   box-shadow: inset #80bfff 0px 0px 40px -12px;
 }
-
+.navbar {
+  background: #e6e6e6;
+  line-height: 45px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 24px;
+  display: none;
+}
 /* main style  */
 .main {
   height: 400px;
@@ -215,6 +225,7 @@ header .left {
   top: -22px;
   left: -12px;
 }
+
 #lable-img {
   width: 70px;
   position: relative;
@@ -223,7 +234,7 @@ header .left {
 .course:hover #lable-img {
   transform: rotate(12deg);
 }
-.course:hover .descont-lable p  {
+.course:hover .descont-lable p {
   transform: rotate(12deg);
 }
 .descont-lable p {
@@ -292,11 +303,44 @@ header .left {
 .student p {
   font-family: "yekan", sans-serif;
 }
-.price p {
-  font-family: "yekan", sans-serif;
-  /* color: #0d75dd; */
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
-
+.price-descount {
+  background: #48a3fd;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-descount span {
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  display: block;
+  position: absolute;
+  left: -10px;
+  transform: rotate(45deg);
+}
+.prev-price {
+  position: relative;
+}
+.prev-price span {
+  width: 70px;
+  height: 1.3px;
+  display: block;
+  background-color: #676767;
+  position: absolute;
+  transform: rotate(-10deg);
+  top: 10px;
+  left: -7px;
+}
 /* all courses section  */
 .courses {
   display: grid;
@@ -499,7 +543,7 @@ footer {
 .footer-link ul li {
   position: relative;
 }
-.footer-link ul li:before {
+.footer-link ul li::before {
   content: "·";
   font-size: 45px;
   vertical-align: middle;
@@ -561,10 +605,10 @@ footer .input-group input {
   border-radius: 5px;
   padding: 5px;
 }
-footer.input-group input:focus {
+footer .input-group input:focus {
   border: 1px solid #dedede;
 }
-.input-group label {
+footer .input-group label {
   background: #48a3fd;
   width: 30%;
   height: 100%;
@@ -577,6 +621,6 @@ footer.input-group input:focus {
   align-items: center;
   justify-content: center;
 }
-.input-group label:hover {
+footer .input-group label:hover {
   background: #3a99f8;
 }
