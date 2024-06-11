@@ -26,6 +26,7 @@ body {
   flex-direction: column;
   padding: 10px;
   border-radius: 12px;
+  box-shadow: inset #7bbcfd 0px 0px 20px -12px;
 }
 .header img {
   width: 120px;
@@ -48,6 +49,8 @@ form {
   justify-content: space-between;
   border-radius: 8px;
   height: 45px;
+  box-shadow: inset #7bbcfd 0px 0px 20px -12px;
+
 }
 .input-group input {
   width: 100%;
@@ -58,10 +61,12 @@ form {
   padding: 10px 10px 10px 40px;
   font-family: "yekan", sans-serif;
   border-radius: 8px;
-  border: 1px solid #f5f8fc;
+  
+
+
 }
 .input-group input:focus {
-  border: 1px solid rgb(137, 196, 255);
+  border: 1px solid #7bbcfd;
 }
 .input-group i {
   position: absolute;

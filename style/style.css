@@ -511,7 +511,7 @@ footer {
   line-height: 24px;
 }
 
-.input-group{
+footer .input-group{
   width: 100%;
   border: 1px solid #7bbcfd;
   height: 40px;
@@ -524,7 +524,7 @@ footer {
   box-shadow: inset #7bbcfd 0px 0px 20px -12px;
 
 }
-.input-group input{
+footer .input-group input{
   width: 70%;
   height: 100%;
   outline: none;
@@ -533,7 +533,7 @@ footer {
   padding: 5px;
 
 }
-.input-group input:focus{
+footer .input-group input:focus{
   border: 1px solid #dedede;
 }
 .input-group label{
