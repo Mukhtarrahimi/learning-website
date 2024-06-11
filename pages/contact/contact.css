@@ -62,11 +62,121 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-padding: 30px;
+  padding: 20px;
   border: 1.3px solid #9dceff;
   margin: 0 auto;
-
   border-radius: 15px;
   /* box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px; */
   background-image: linear-gradient(135deg, #f8fafd 0%, #d6e9fd 100%);
+}
+.right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.right .mesag-iocn {
+  width: 100px;
+  height: 100px;
+  background-color: #c3e1ff;
+  border-radius: 12px;
+}
+.right .mesag-iocn i {
+  font-size: 55px;
+  color: #42a0fe;
+  text-align: center;
+  line-height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.mesage-title h3 {
+  font-family: "vazir", sans-serif;
+  font-size: 25px;
+  color: #0d75dd;
+}
+.mesage-title p {
+  font-family: "yekan", sans-serif;
+  color: #4a4a4a;
+}
+.send-mail .left {
+  width: 40%;
+}
+.left .input-group {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+.left .input-group input {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  /* border: 1px solid #42a0fe; */
+  border: 1.3px solid #9dceff;
+  outline: none;
+  padding: 8px;
+  font-size: 12px;
+}
+.left .input-group input:focus {
+  box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px;
+}
+.left textarea {
+  width: 100%;
+  height: 80px;
+  border-radius: 8px;
+  /* border: 1px solid #42a0fe; */
+  border: 1.3px solid #9dceff;
+  outline: none;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 12px;
+}
+.left textarea:focus {
+  box-shadow: rgba(157, 202, 247, 0.3) 0px 4px 16px;
+}
+
+.left button {
+  width: 100%;
+  background: #48a3fd;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  height: 40px;
+  outline: none;
+  border: 1.3px solid #9dceff;
+}
+
+.media-p {
+  text-align: center;
+  font-family: "yekan", sans-serif;
+  color: #4a4a4a;
+}
+.medaia-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+.media {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f4f9ff;
+  line-height: 40px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 0.6px solid #cae4ff;
+}
+.media i {
+  font-size: 23px;
+  color: #42a0fe;
+  transition: 0.3s;
+}
+.media:hover {
+  transform: translateY(-8px);
+  background-color: #58a8f9;
+}
+.media:hover i {
+  color: #ffffff;
 }

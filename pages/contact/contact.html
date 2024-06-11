@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="contact.css" />
-    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../style/style.css" />
     <title>تماس با ما</title>
   </head>
   <body>
@@ -21,7 +21,9 @@
           <img src="../../assest/img/logo.png" alt="" />
         </div>
         <ul class="ul active">
-          <li class="li"><a id="active-li" href="../../index.html">صفحه نخست</a></li>
+          <li class="li">
+            <a id="active-li" href="../../index.html">صفحه نخست</a>
+          </li>
           <li class="course-nav li">
             <a href="#"
               >دوره ها <i class="ri-arrow-left-wide-fill angle"></i
@@ -35,7 +37,7 @@
             </ul>
           </li>
           <li class="li"><a href="#">درباره ما</a></li>
-          <li class="li"><a href="./pages/blogs/blogs.html">وبلاگ</a></li>
+          <li class="li"><a href="../blogs/blogs.html">وبلاگ</a></li>
           <li class="li"><a href="./contact.html">تماس با ما</a></li>
         </ul>
       </div>
@@ -44,22 +46,43 @@
           <i class="ri-shopping-bag-line"></i>
           <span class="shoping-count">0</span>
         </div>
-        <a href="../login-form/login.html" class="login-btn"
-          >ورود / ثبت نام</a
-        >
+        <a href="../login-form/login.html" class="login-btn">ورود / ثبت نام</a>
         <div class="navbar">
-          <i class="ri-menu-line icon open" ></i>
-          <i class="ri-close-fill icon close" style="display: none;"></i>
+          <i class="ri-menu-line icon open"></i>
+          <i class="ri-close-fill icon close" style="display: none"></i>
         </div>
       </div>
     </header>
     <!-- main  -->
     <div class="contact-main">
       <h2>ارتباط با سی پی سی کدرس</h2>
-      <p>برای اطلاعات بیشتر و دریافت مشاوره و ثبت نام در دوره ها ایمیل خود را ارسال کنید!</p>
+      <p>
+        برای اطلاعات بیشتر و دریافت مشاوره و ثبت نام در دوره ها ایمیل خود را
+        ارسال کنید!
+      </p>
       <div class="input-group">
         <input type="email" id="email" placeholder="ایمیل شما" />
         <label for="email">ارسال</label>
+      </div>
+    </div>
+    <!-- socail-media  -->
+    <p class="media-p">آیولرن را در شبکه های اجتماعی دنبال کنید.</p>
+
+    <div class="medaia-icons">
+      <div class="media">
+        <i class="ri-youtube-line"></i>
+      </div>
+      <div class="media">
+        <i class="ri-instagram-line"></i>
+      </div>
+      <div class="media">
+        <i class="ri-linkedin-box-fill"></i>
+      </div>
+      <div class="media">
+        <i class="ri-telegram-line"></i>
+      </div>
+      <div class="media">
+        <i class="ri-facebook-circle-fill"></i>
       </div>
     </div>
     <!-- send mail  -->
@@ -68,13 +91,15 @@
         <div class="mesag-iocn">
           <i class="ri-mail-send-fill"></i>
         </div>
-        <h3>پیام شما</h3>
-        <p>پیام خود را برای ما ارسال کنید!</p>
+        <div class="mesage-title">
+          <h3>پیام شما</h3>
+          <p>پیام خود را برای ما ارسال کنید!</p>
+        </div>
       </div>
       <div class="left">
         <div class="input-group">
-          <input type="text" placeholder="نام و نام خانوادگی">
-          <input type="text" placeholder="موضوع">
+          <input type="text" placeholder="نام و نام خانوادگی" />
+          <input type="text" placeholder="موضوع" />
         </div>
         <textarea placeholder="متن پیام"></textarea>
         <button>ارسال</button>
