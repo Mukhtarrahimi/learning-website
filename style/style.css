@@ -16,6 +16,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "vazir", sans-serif;
+  scroll-behavior: smooth;
 }
 li {
   list-style: none;
